@@ -1,5 +1,5 @@
 FileVersion = 1
-Projects = {lyb-gfc = {Path = "."}}
+Projects = {lyb-gfc = {Path = "."}, gon-beef = "*"}
 
 [Workspace]
 StartupProject = "lyb-gfc"
