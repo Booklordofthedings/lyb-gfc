@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Project]
+Name = "lyb-gfc"
+TargetType = "BeefLib"
+StartupObject = "lyb_gfc.Program"
