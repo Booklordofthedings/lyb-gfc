@@ -6,11 +6,16 @@ namespace lyb_gfc;
 class Gfc
 {
 	/*
-		GonFromFile(Input, Output, Raw = false) -> Read the input file and parse everything inside gfc-start/end || if raw is true just simply parse the file as is and copy it to the resulting file
-		GonFromDir(Input, Output, RawEndings[]) -> Read all files from the input directory and parse each one into a corresponding gon file. If RawEndings are provided, files that end with one of the raw endings will be full parsed
-		GonFromDirRec(Input, Output, RawEndings[]) -> Read all files from the input directory and parse each one into a corresponding gon file recursivly. If RawEndings are provided, files that end with one of the raw endings will be full parsed
-		Combine(Input, Output, Seperate = false) -> recursivly combine all .gon files from the given directory into a single file. If seperate is given it will wrap the entire thing into a corresponding file
+		String Directory to check
+		String Output file location
+		bool Wether we should do it recursivly
+		String[] File endings that are used for raw files
 	*/
+
+	public Result<String> GonFromCode(String pInput)
+	{
+		return .Err;
+	}
 
 	///Retrieves gon information between gcf-start and gfc
 	///@param pInput path to the input file
